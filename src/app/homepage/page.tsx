@@ -6,7 +6,7 @@ import './styles.css'
 
 export default function homepage() {
     const [data, setData] = useState<any[]>([])
-    useEffect(() => {
+    useEffect(() => {  
         axios.get("https://fakestoreapi.com/products").then((data) => { setData(data.data) }).catch(error => console.log(error));
     }, [])
     console.log(data)
