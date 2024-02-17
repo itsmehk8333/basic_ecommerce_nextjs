@@ -1,0 +1,50 @@
+body {
+  color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px 20px 20px 5px;
+  margin:3px;
+  /* font-size: 30px; */
+  text-align: center;
+
+
+}
+
+.productImage {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.productTitle {
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  float: left;
+}
+
+.productRating {
+  font-size: 15px;
+  float: left;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.productPrice {
+  font-size: 15px;
+  float: left;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.addtocart {
+  width: 200px;
+  padding: 10px;
+  
+}
